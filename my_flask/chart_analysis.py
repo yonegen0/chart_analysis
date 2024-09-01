@@ -20,4 +20,4 @@ def chart_view():
 
     # チャートの色，背景の色
     style = mpf.make_mpf_style(marketcolors=mc)
-    mpf.plot(df, title="N225", type="candle", figratio=(10,5), mav=(5, 25, 75), volume=True, style=style, savefig=r'N225.png')
+    mpf.plot(df, title="N225", type="candle", figratio=(10,5), mav=(5, 25, 75), volume=True, style=style, savefig=r'my_flask/N225.png')
